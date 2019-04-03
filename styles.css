@@ -1,0 +1,355 @@
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.navbar {
+  background-color: #FF0800;
+  
+}
+
+.nav-text {
+  margin-left: 30px;
+  font-size: 1.75rem;
+  font-family: 'Anton', sans-serif;
+}
+
+.phone {
+  margin-left:auto;
+  margin-right: 30px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.address {
+  font-size: 15px;
+  
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  color: black;
+  text-decoration: underline;
+  text-shadow: 1px 1px red;
+}
+
+/*
+.background-image {
+  background-image: url(images/Ride%20Auto%20Sales%20Logo%20Final%202000px.png);
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: .4;
+  z-index: -1;
+  background-attachment: fixed;
+  margin-top: 50px;
+}
+*/
+
+.homepage {
+  background-image: url(images/Ride%20Auto%20Sales%20Logo%20Final%202000px%20opacity.png);  
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+.testimonial-background {
+  background-image: url(images/Ride%20Auto%20Sales%20Logo%20Final%202000px%20opacity.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  
+}
+
+.testimonial-text {
+  background-color: white;
+  opacity: .9;
+  
+}
+
+.disclaimer {
+  background-color: red;
+  border-top-color: black;
+  border-top-width: .5px;
+  border-top-style: solid;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: .5px;
+  margin-bottom: 50px;
+}
+
+.disclaimer-text {
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.testimonial-header h2  {
+  margin-top: 300px;
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+  text-shadow: none;
+}
+
+
+.carousel {
+  margin-top: 150px;
+}
+
+
+ 
+
+p {
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.icons {
+  height: auto;
+  margin: 50px 0 50px 0;
+  background-color: lightgrey;
+  font-family: 'Anton', sans-serif;
+  border-bottom-style: solid;
+  border-color: black;
+  border-top-style: solid;
+  border-width: .5px;
+}
+
+.icon {
+  margin:
+  text-shadow: 2px 2px white;
+  justify-content: center;
+  display: flex;
+  margin ;
+  
+}
+
+
+
+h2 {
+  
+  text-shadow: 2px 2px white;
+  display: flex;
+  justify-content: center;
+}
+
+
+.testimonials {
+  height: auto;
+  background:
+  linear-gradient(
+  rgba(0,0,0,.5),
+  rgba(0,0,0,.5)
+  ),
+  url(images/background-muscle.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom-style: solid;
+  border-color: black;
+  border-top-style: solid;
+  border-width: .5px;
+  
+}
+
+.carousel-item.active, .carousel-item-next, .carousel-item-prev{
+    display:block;
+}
+
+
+
+.border-reviews {
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  
+  
+}
+
+.review-headline {
+  color: white;
+  font-family: 'Anton', sans-serif;
+  margin-top: 10px;
+  font-size: 40px;
+}
+
+
+
+.review-header {
+  color: white;
+  font-family: 'Anton', sans-serif;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  padding: 5px;
+  
+}
+
+.review-text p{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+
+.map {
+  height: auto;
+  width: 100%;
+  margin: 50px 0 50px 0;
+  background-color: antiquewhite;
+  border-bottom-style: solid;
+  border-color: black;
+  border-top-style: solid;
+  border-width: .5px;
+  
+}
+
+.map p {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.75rem;
+}
+
+.google-map iframe{
+  height: 400px;
+  width: 1000px;
+  
+}
+
+
+
+
+
+
+
+
+
+footer {
+  background-color: red;
+  height: auto;
+  font-size: 1.75rem;
+  font-family: 'Anton', sans-serif;
+  border-top-style: solid;
+  border-width: .5px;
+  border-color: black;
+  
+}
+
+footer p {
+  font-family: 'Anton', sans-serif;
+  
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer-address {
+  font-size: 30px;
+  padding: 0;
+  width: inherit
+}
+
+li a {
+  color: black;
+  opacity: .5;
+}
+
+li a:hover {
+  color: whitesmoke;
+}
+
+li:hover {
+  color: whitesmoke;
+  
+}
+
+.steven {
+  color: black;
+  
+}
+
+.steven:hover {
+  color: white;
+  text-decoration-line: none;
+}
+
+
+@media only screen and (max-width: 768px){
+  .icons {
+    height: auto;
+  }
+  .google-map iframe {
+    width: 500px;
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .phone {
+    
+    font-style: italic;
+  }
+  .address {
+    display: none;
+  }
+  
+}
+
+@media only screen and (max-width:992px){
+  .testimonial-header {
+    margin-top: auto;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .testimonials {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .google-map iframe{
+    width: 600px;
+  }
+}
+
+@media only screen and (min-width: 310px) and (max-width: 768px) {
+  .google-map iframe{
+    width: 300px;
+  }
+  .carousel{
+    margin: 75px;
+  }
+  
+}
+
+@media only screen and (min-width: 310px) and (max-width: 992px) {
+  .navbar {
+    position: relative;
+  }
+}
+
+// Media Queries Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+ 
+  
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+   {
+  
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
